@@ -63,7 +63,7 @@ function Get-AccessToken()
   #endregion
   
   #region Initialization
-  #-----------------------------------------------------------------------
+  #----------------------------------------------------------------------
   # Loads the Azure Active Directory Assemblies 
   #-----------------------------------------------------------------------
   Add-Type -Path "${env:ProgramFiles(x86)}\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Services\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" | Out-Null

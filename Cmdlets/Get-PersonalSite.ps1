@@ -14,7 +14,7 @@ function Get-PersonalSite()
     [String]$LoginName    
   )
   
-  #------------------------------------------------------------------------
+  #-----------------------------------------------------------------------
   # Get an instance of the UserProfile PeopleManager
   #-----------------------------------------------------------------------
   $peopleManager = New-Object Microsoft.SharePoint.Client.UserProfiles.PeopleManager($Context)
